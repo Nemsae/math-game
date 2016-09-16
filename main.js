@@ -24,8 +24,8 @@ let App = React.createClass({
       this.refs.correctAnswer.innerHTML = 'Correct Answer = '+sum;
     }
 
-    let number1 = Math.floor(Math.random()*(20));
-    let number2 = Math.floor(Math.random()*(20));
+    let number1 = Math.floor(Math.random()*(200));
+    let number2 = Math.floor(Math.random()*(200));
     let theAnswer = firstNumber + secondNumber;
 
     setTimeout(() => {
